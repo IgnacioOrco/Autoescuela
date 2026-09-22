@@ -46,8 +46,11 @@ export default function ElProgramaPage() {
     {
       fase: "Fase 2",
       titulo: "Maniobras básicas y control a baja velocidad",
-      objetivo:
-        "Arranque y detención suave. Control direccional, giro en radio corto, zig-zag suave entre conos y sincronización de cambios de marcha en circuito cerrado.",
+      objetivo: (
+        <>
+          <strong>Ejercicios de reversa (M.A.).</strong> Arranque y detención suave. Control direccional, giro en radio corto, zig-zag suave entre conos y sincronización de cambios de marcha en circuito cerrado.
+        </>
+      ),
     },
     {
       fase: "Fase 3",
